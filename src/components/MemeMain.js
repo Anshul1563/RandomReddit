@@ -11,6 +11,7 @@ export default function Main(props) {
 
   const [allMemes, setAllMemes] = React.useState([]);
   const [count, setCount] = React.useState(0);
+  
   React.useEffect(() => {
     async function getMemes() {
       try {
